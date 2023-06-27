@@ -610,6 +610,7 @@ button.owl-prev {
 .container section#categories .category__item li {
   color: #000;
   font-size: 14px;
+  list-style: disc;
 }
 .container section#categories .category__item h4 {
   font-size: 18px;
