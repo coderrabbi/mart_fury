@@ -1,0 +1,72 @@
+[
+    {
+        "id":"1",
+        "title":"DBPOWER T20 1500 Lumens LCD Projector",
+        "ratings":"2",
+        "regular_price":"",
+        "sale_price":"200.00",
+        "img1":"assets/38a.webp",
+        "img2":"assets/38b.webp",
+        "discount":""
+    },
+    {
+        "id":"2",
+        "title":"Fujifilm Instax Mini Neo Instant Film Camera",
+        "ratings":"2",
+        "regular_price":"",
+        "sale_price":"99.00",
+        "img1":"assets/46a.webp",
+        "img2":"assets/46b.webp",
+        "discount":""
+    },
+    {
+        "id":"3",
+        "title":"DJI Phantom 4 Quadcopter Camera",
+        "ratings":"2",
+        "regular_price":"",
+        "sale_price":"900.00",
+        "img1":"assets/24a.webp",
+        "img2":"assets/24b.webp",
+        "discount":""
+    },
+    {
+        "id":"4",
+        "title":"Gopro Quick Sliver Hero4 24K HD Camera",
+        "ratings":"2",
+        "regular_price":"",
+        "sale_price":"525.00",
+        "img1":"assets/48a.webp",
+        "img2":"assets/48b.webp",
+        "discount":""
+    },
+    {
+        "id":"5",
+        "title":"Nikon Coolpix 24 MP Camera",
+        "ratings":"2",
+        "regular_price":"",
+        "sale_price":"450.00",
+        "img1":"assets/49a.webp",
+        "img2":"assets/49b.webp",
+        "discount":""
+    },
+    {
+        "id":"6",
+        "title":"Sony HD 1080p, 13.5MP White Version",
+        "ratings":"2",
+        "regular_price":"",
+        "sale_price":"386.90",
+        "img1":"assets/50a.webp",
+        "img2":"assets/50b.webp",
+        "discount":""
+    },
+    {
+        "id":"7",
+        "title":"Amcrest Security Camera",
+        "ratings":"3",
+        "regular_price":"",
+        "sale_price":"45.90",
+        "img1":"assets/22a.webp",
+        "img2":"assets/22b.webp",
+        "discount":""
+    }
+]
