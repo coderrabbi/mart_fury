@@ -162,7 +162,7 @@ button.owl-prev {
     margin: 0 auto;
     padding: 0 20px;
     @media screen and (min-width: 768px) {
-      padding: 0px;
+      padding: 0;
     }
   }
   // header secion
@@ -475,7 +475,7 @@ button.owl-prev {
       gap: 15px;
       @media screen and (min-width: 768px) {
         flex-direction: row;
-        padding: 0px;
+        padding: 0;
       }
       .banner__container__left {
         @media screen and (min-width: 768px) {
@@ -496,7 +496,6 @@ button.owl-prev {
             flex-direction: column;
             justify-content: center;
             gap: 15px;
-
             @media screen and (min-width: 768px) {
             }
             h3 {
@@ -534,6 +533,8 @@ button.owl-prev {
           height: 100%;
           width: 100%;
           display: flex;
+          @media screen and (min-width: 768px) {
+          }
           flex-direction: column;
           justify-content: center;
           background-size: cover;
@@ -606,6 +607,14 @@ button.owl-prev {
 
       justify-content: center;
       border: 1px solid #bfbfbf;
+      .category__content {
+        font-family: "Inter", sans-serif;
+        .item__list {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+        }
+      }
       .category__img {
         img {
           height: 168px;
@@ -669,7 +678,7 @@ button.owl-prev {
       flex-direction: row;
     }
     .washing__machine__banner {
-      background: url(./assets/mf02-blockpromo-01.webp);
+      background: url("./assets/mf02-blockpromo-01.webp");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -695,7 +704,7 @@ button.owl-prev {
       }
     }
     .extrime__banner {
-      background: url(./assets/mf02-blockpromo-02.webp);
+      background: url("./assets/mf02-blockpromo-02.webp");
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -760,7 +769,6 @@ button.owl-prev {
       gap: 20px;
       flex-direction: column;
       align-items: center;
-
       @media screen and (min-width: 768px) {
         flex-direction: row;
         align-items: flex-start;
@@ -776,12 +784,11 @@ button.owl-prev {
         justify-content: center;
         gap: 10px;
       }
-      span,
-      p {
+      p,
+      span {
         font-size: 16px;
         line-height: 22px;
         color: #636363;
-
         &:hover {
           color: $primary;
         }
@@ -798,9 +805,9 @@ button.owl-prev {
   .footer__container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 50px 20px 0 20px;
+    padding: 50px 20px 0;
     @media screen and (min-width: 768px) {
-      padding: 100px 0 0 0;
+      padding: 100px 0 0;
     }
     .selling__feature {
       display: flex;
