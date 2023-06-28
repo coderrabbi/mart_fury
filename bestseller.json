@@ -1,82 +1,92 @@
 [
-    {
-        "id":"1",
-        "title":"DJI Phantom 4 Quadcopter Camera",
-        "ratings":"2",
-        "regular_price":"",
-        "sale_price":"900.00",
-        "img1":"assets/24a.webp",
-        "img2":"assets/24b.webp",
-        "discount":""
-    },
-    {
-        "id":"2",
-        "title":"Samsung 55-Inch 4K Ultra HD Smart LED TV",
-        "ratings":"2",
-        "regular_price":"400.00",
-        "sale_price":"350",
-        "img1":"assets/51a.webp",
-        "img2":"",
-        "discount":"13"
-    },
-    {
-        "id":"3",
-        "title":"Canon MX492 Wireless All-IN-One Small Printer",
-        "ratings":"3",
-        "regular_price":"300.00",
-        "sale_price":"250",
-        "img1":"assets/51a.webp",
-        "img2":"assets/52a.webp",
-        "discount":"17"
-    },
-    {
-        "id":"3",
-        "title":"Canon MX492 Wireless All-IN-One Small Printer",
-        "ratings":"3",
-        "regular_price":"300.00",
-        "sale_price":"250",
-        "img1":"assets/51a.webp",
-        "img2":"assets/52a.webp",
-        "discount":"17"
-    },
-    {
-        "id":"4",
-        "title":"Marshall PBluetooth Speaker",
-        "ratings":"3",
-        "regular_price":"300.00",
-        "sale_price":"250",
-        "img1":"assets/40b.webp",
-        "img2":"assets/40d.webp",
-        "discount":"17"
-    },
-    {
-        "id":"5",
-        "title":"Gopro Quick Sliver Hero4 24K HD Camera",
-        "ratings":"2",
-        "regular_price":"",
-        "sale_price":"525.00",
-        "img1":"assets/48a.webp",
-        "img2":"assets/48b.webp",
-        "discount":""
-    },
-    {
-        "id":"6",
-        "title":"DBPOWER T20 1500 Lumens LCD Projector",
-        "ratings":"2",
-        "regular_price":"",
-        "sale_price":"200.00",
-        "img1":"assets/38a.webp",
-        "img2":"assets/38b.webp",
-        "discount":""
-    },
-    {
-        "id":"7",
-        "title":"iClever BoostCube Mini Charger",
-        "ratings":"2",
-        "regular_price":"",
-        "sale_price":"12.00",
-        "img1":"assets/45a.webp",
-        "img2":"assets/45b.webp",
-        "discount":""
-    }
+  {
+    "id": "1",
+    "title": "DJI Phantom 4 Quadcopter Camera",
+    "ratings": "2",
+    "regular_price": "",
+    "sale_price": "900.00",
+    "img1": "assets/key.png",
+    "img2": "assets/24b.webp",
+    "discount": ""
+  },
+  {
+    "id": "2",
+    "title": "Samsung 55-Inch 4K Ultra HD Smart LED TV",
+    "ratings": "2",
+    "regular_price": "400.00",
+    "sale_price": "350",
+    "img1": "assets/bag.png",
+    "img2": "",
+    "discount": "13"
+  },
+  {
+    "id": "3",
+    "title": "Canon MX492 Wireless All-IN-One Small Printer",
+    "ratings": "3",
+    "regular_price": "300.00",
+    "sale_price": "250",
+    "img1": "assets/wifi.jpg",
+    "img2": "assets/52a.webp",
+    "discount": "17"
+  },
+  {
+    "id": "3",
+    "title": "Canon MX492 Wireless All-IN-One Small Printer",
+    "ratings": "3",
+    "regular_price": "300.00",
+    "sale_price": "250",
+    "img1": "assets/dash cam.png",
+    "img2": "assets/52a.webp",
+    "discount": "17"
+  },
+  {
+    "id": "4",
+    "title": "Marshall PBluetooth Speaker",
+    "ratings": "3",
+    "regular_price": "300.00",
+    "sale_price": "250",
+    "img1": "assets/speaker.png",
+    "img2": "assets/40d.webp",
+    "discount": "17"
+  },
+  {
+    "id": "5",
+    "title": "EndurEdge CBD ME Gummies",
+    "ratings": "2",
+    "regular_price": "",
+    "sale_price": "525.00",
+    "img1": "assets/male-gummeis.png",
+    "img2": "assets/48b.webp",
+    "discount": ""
+  },
+  {
+    "id": "6",
+    "title": "Vigor Prime Muscle Caps",
+    "ratings": "2",
+    "regular_price": "",
+    "sale_price": "200.00",
+    "img1": "assets/vigro.png",
+    "img2": "assets/38b.webp",
+    "discount": ""
+  },
+  {
+    "id": "7",
+    "title": "Premind Brain Performance Gummies",
+    "ratings": "2",
+    "regular_price": "",
+    "sale_price": "12.00",
+    "img1": "assets/primind.png",
+    "img2": "assets/45b.webp",
+    "discount": ""
+  },
+  {
+    "id": "7",
+    "title": "HemoGlutrix Blood Sugar Gummy",
+    "ratings": "2",
+    "regular_price": "",
+    "sale_price": "12.00",
+    "img1": "assets/blood-Sugar.png",
+    "img2": "assets/45b.webp",
+    "discount": ""
+  }
 ]

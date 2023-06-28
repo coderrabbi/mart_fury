@@ -134,6 +134,10 @@ button.owl-prev {
 .product {
   position: relative;
 }
+.product .product__img img {
+  width: 200px;
+  height: 200px;
+}
 .product .product__content {
   display: flex;
   flex-direction: column;

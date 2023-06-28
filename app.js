@@ -35,7 +35,7 @@ $(document).ready(function () {
   });
 });
 
-let countDownDate = new Date("Jun 25, 2023 15:37:25").getTime();
+let countDownDate = new Date("Jun 29, 2023 15:37:25").getTime();
 
 let x = setInterval(function () {
   // Get today's date and time
@@ -80,27 +80,7 @@ const displayBestSellingItems = (data) => {
     catagoryDiv.innerHTML = `
     <div class="product">
       <div class="product__img"><img src="${item.img1}" alt=""></div>
-      <div class="product__content">
-
-       <a href="">${item.title}</a>
-       <div class="review__stars">
-        <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-        <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-        <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-        <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-        <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-        <span>2</span>
-       </div>
-       <div class="product__price">
-        <span class="price">$${item.sale_price}</span>
-        <span class="old__price">$${item.regular_price}</span>
-      </div>
-      <div> ${
-        item.discount
-          ? `<span class="discount-percent">${item.discount}%</span>`
-          : ""
-      }</div>
-      </div>
+  
     </div>`;
 
     sellingItems.appendChild(catagoryDiv);
@@ -174,29 +154,6 @@ const displayTechnology = (data) => {
     techDiv.innerHTML = `
       <div class="product">
         <div class="product__img"><img src="${item.img1}" alt=""></div>
-        <div class="product__content">
-     
-         <a href="">${item.title}</a>
-         <div class="review__stars">
-          <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-          <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-          <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-          <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-          <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-          <span>2</span>
-         </div> 
-         <div class="product__price">
-          <span class="price">$${item.sale_price}</span>
-          <span class="old__price">${
-            item.regular_price ? `$${item.regular_price}` : ""
-          }</span>
-        </div>
-       <div> ${
-         item.discount
-           ? `<span class="discount-percent">${item.discount}%</span>`
-           : ""
-       }</div>
-        </div>
       </div>`;
 
     technologyItem.appendChild(techDiv);

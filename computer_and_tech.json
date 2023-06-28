@@ -1,82 +1,42 @@
 [
-    {
-        "id":"1",
-        "title":"Beat Spill 2.0 Wireless Speaker - White",
-        "ratings":"4",
-        "regular_price":"",
-        "sale_price":"150.00",
-        "img1":"assets/12a.webp",
-        "img2":"assets/12b.webp",
-        "discount":""
-    },
-    {
-        "id":"2",
-        "title":"Samsung Gear VR Virtual Reality Headset",
-        "ratings":"2",
-        "regular_price":"",
-        "sale_price":"70.00",
-        "img1":"assets/15a.webp",
-        "img2":"assets/15b.webp",
-        "discount":""
-    },
-    {
-        "id":"3",
-        "title":"ASUS Chromebook Flip - 10.2 Inch",
-        "ratings":"2",
-        "regular_price":"",
-        "sale_price":"350.00",
-        "img1":"assets/13a.webp",
-        "img2":"assets/13b.webp",
-        "discount":""
-    },
-    {
-        "id":"4",
-        "title":"Apple iPhone Retina 6s Plus 64GB",
-        "ratings":"2",
-        "regular_price":"",
-        "sale_price":"1250.00",
-        "img1":"assets/16a.webp",
-        "img2":"assets/16b.webp",
-        "discount":""
-    },
-    {
-        "id":"5",
-        "title":"Apple Macbook Display 12 Inch",
-        "ratings":"2",
-        "regular_price":"650",
-        "sale_price":"500.00",
-        "img1":"assets/14a.webp",
-        "img2":"assets/14b.webp",
-        "discount":"23"
-    },
-    {
-        "id":"6",
-        "title":"Xbox One Wireless Controller",
-        "ratings":"2",
-        "regular_price":"",
-        "sale_price":"80.00",
-        "img1":"assets/2a.webp",
-        "img2":"assets/2b.webp",
-        "discount":""
-    },
-    {
-        "id":"7",
-        "title":"Gopro Quick Sliver Hero4 24K HD Camera",
-        "ratings":"2",
-        "regular_price":"",
-        "sale_price":"525.00",
-        "img1":"assets/48a.webp",
-        "img2":"assets/48b.webp",
-        "discount":""
-    },
-    {
-        "id":"8",
-        "title":"Samsung 55-Inch 4K Ultra HD Smart LED TV",
-        "ratings":"2",
-        "regular_price":"400.00",
-        "sale_price":"350.00",
-        "img1":"assets/51a.webp",
-        "img2":"",
-        "discount":"13"
-    }
+  {
+    "id": "1",
+    "title": "Advance Body Cellulite Remover",
+    "ratings": "4",
+    "regular_price": "",
+    "sale_price": "150.00",
+    "img1": "assets/body-cellulite.jpg",
+    "img2": "assets/12b.webp",
+    "discount": ""
+  },
+  {
+    "id": "2",
+    "title": "CoreMaster Ab Stimulator",
+    "ratings": "2",
+    "regular_price": "",
+    "sale_price": "70.00",
+    "img1": "assets/band.png",
+    "img2": "assets/15b.webp",
+    "discount": ""
+  },
+  {
+    "id": "3",
+    "title": "T-Rex High Powerful Headlamp",
+    "ratings": "2",
+    "regular_price": "",
+    "sale_price": "350.00",
+    "img1": "assets/handlamp.png",
+    "img2": "assets/13b.webp",
+    "discount": ""
+  },
+  {
+    "id": "4",
+    "title": "Loud Horizon Mini Speakers",
+    "ratings": "2",
+    "regular_price": "",
+    "sale_price": "1250.00",
+    "img1": "assets/speaker.png",
+    "img2": "assets/16b.webp",
+    "discount": ""
+  }
 ]
