@@ -669,40 +669,17 @@ button.owl-prev {
   }
 }
 .container .discount__banner .washing__machine__banner {
-  background: url("./assets/mf02-blockpromo-01.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   width: 100%;
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+}
+.container .discount__banner .washing__machine__banner img {
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .container .discount__banner .washing__machine__banner {
     width: 50%;
   }
 }
-.container .discount__banner .washing__machine__banner h3 {
-  font-weight: 500;
-}
-.container .discount__banner .washing__machine__banner h5 {
-  font-size: 16px;
-  font-weight: 400;
-  color: #999;
-  line-height: 22px;
-}
-.container .discount__banner .washing__machine__banner h5 span {
-  color: #52a87d;
-}
 .container .discount__banner .extrime__banner {
-  background: url("./assets/mf02-blockpromo-02.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  padding: 50px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -711,6 +688,9 @@ button.owl-prev {
   .container .discount__banner .extrime__banner {
     width: 50%;
   }
+}
+.container .discount__banner .extrime__banner img {
+  width: 100%;
 }
 .container .discount__banner .extrime__banner h3 {
   font-weight: 500;
