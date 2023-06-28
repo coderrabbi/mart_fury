@@ -80,6 +80,10 @@ const displayBestSellingItems = (data) => {
     catagoryDiv.innerHTML = `
     <div class="product">
       <div class="product__img"><img src="${item.img1}" alt=""></div>
+      <div class="product__content">
+     
+      <a href="">${item.title}</a>
+      </div>
   
     </div>`;
 
@@ -154,6 +158,9 @@ const displayTechnology = (data) => {
     techDiv.innerHTML = `
       <div class="product">
         <div class="product__img"><img src="${item.img1}" alt=""></div>
+        <div class="product__content">
+     
+        <a href="">${item.title}</a></div>
       </div>`;
 
     technologyItem.appendChild(techDiv);
