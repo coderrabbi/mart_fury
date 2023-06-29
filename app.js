@@ -78,14 +78,19 @@ const displayBestSellingItems = (data) => {
     const catagoryDiv = document.createElement("div");
     catagoryDiv.classList.add("swiper-slide");
     catagoryDiv.innerHTML = `
-    <div class="product">
-      <div class="product__img"><img src="${item.img1}" alt=""></div>
-      <div class="product__content">
-     
-      <a href="">${item.title}</a>
-      </div>
+   <div> 
+   <a  href="${item.link}" target="_blank">
+   
+   <div class="product">
+   <div class="product__img"><img src="${item.img1}" alt=""></div>
+   <div class="product__content">
   
-    </div>`;
+   <a href="${item.link}" target="_blank">${item.title}</a>
+   </div>
+
+ </div>
+   </a>
+   </div>`;
 
     sellingItems.appendChild(catagoryDiv);
   });
@@ -156,12 +161,19 @@ const displayTechnology = (data) => {
     const techDiv = document.createElement("div");
     techDiv.classList.add("swiper-slide");
     techDiv.innerHTML = `
-      <div class="product">
-        <div class="product__img"><img src="${item.img1}" alt=""></div>
-        <div class="product__content">
-     
-        <a href="">${item.title}</a></div>
-      </div>`;
+    <div> 
+    <a  href="${item.link}" target="_blank">
+    
+    <div class="product">
+    <div class="product__img"><img src="${item.img1}" alt=""></div>
+    <div class="product__content">
+   
+    <a href="${item.link}" target="_blank">${item.title}</a>
+    </div>
+ 
+  </div>
+    </a>
+    </div>`;
 
     technologyItem.appendChild(techDiv);
   });

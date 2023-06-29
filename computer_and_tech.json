@@ -11,6 +11,7 @@
   },
   {
     "id": "2",
+    "link": "https://glossy-transfer.com/?a=202058&c=25718&s1=",
     "title": "CoreMaster Ab Stimulator",
     "ratings": "2",
     "regular_price": "",
@@ -31,11 +32,23 @@
   },
   {
     "id": "4",
+    "link": "https://glossy-transfer.com/?a=202058&c=25679&s1=",
     "title": "Loud Horizon Mini Speakers",
     "ratings": "2",
     "regular_price": "",
     "sale_price": "1250.00",
     "img1": "assets/speaker.png",
+    "img2": "assets/16b.webp",
+    "discount": ""
+  },
+  {
+    "id": "5",
+    "link": "https://glossy-transfer.com/?a=202058&c=25737&s1=",
+    "title": "SoleEase Foot Massager",
+    "ratings": "2",
+    "regular_price": "",
+    "sale_price": "1250.00",
+    "img1": "assets/foot-massager.png",
     "img2": "assets/16b.webp",
     "discount": ""
   }
