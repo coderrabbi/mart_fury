@@ -93,6 +93,35 @@ button.owl-prev {
     display: block;
   }
 }
+
+.mobile__hidden {
+  display: none;
+  @media screen and (min-width: 600px) {
+    display: block;
+  }
+}
+.mobile__product {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  @media screen and (min-width: 600px) {
+    display: none;
+  }
+  .mobile__product__container {
+    a {
+      color: #8ebbe9;
+      &:hover {
+        color: #dd2400;
+      }
+    }
+    display: flex;
+    align-items: center;
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}
 .deals__heading {
   display: flex;
   align-items: center;
@@ -718,22 +747,6 @@ button.owl-prev {
   }
 }
 
-// div#best__selling__item {
-//   display: flex;
-//   overflow: scroll;
-// }
-// div#electronic__items {
-//   display: flex;
-//   overflow: scroll;
-// }
-// div#technology__items {
-//   display: flex;
-//   overflow: scroll;
-// }
-// div#camera__lists {
-//   display: flex;
-//   overflow: scroll;
-// }
 .swiper-button-next {
   color: $primary !important;
 }

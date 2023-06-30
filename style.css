@@ -35,8 +35,7 @@ a {
   vertical-align: top;
   line-height: 26px;
   text-align: center;
-  transition: color 0.5s ease, background-color 0.5s ease,
-    border-color 0.5s ease;
+  transition: color 0.5s ease, background-color 0.5s ease, border-color 0.5s ease;
   backface-visibility: hidden;
 }
 .shop__btn:hover {
@@ -105,6 +104,40 @@ button.owl-prev {
   }
 }
 
+.mobile__hidden {
+  display: none;
+}
+@media screen and (min-width: 600px) {
+  .mobile__hidden {
+    display: block;
+  }
+}
+
+.mobile__product {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+@media screen and (min-width: 600px) {
+  .mobile__product {
+    display: none;
+  }
+}
+.mobile__product .mobile__product__container {
+  display: flex;
+  align-items: center;
+}
+.mobile__product .mobile__product__container a {
+  color: #8ebbe9;
+}
+.mobile__product .mobile__product__container a:hover {
+  color: #dd2400;
+}
+.mobile__product .mobile__product__container img {
+  width: 150px;
+  height: 150px;
+}
+
 .deals__heading {
   display: flex;
   align-items: center;
@@ -139,19 +172,6 @@ button.owl-prev {
   width: 200px;
   height: 200px;
 }
-
-@media screen and (max-width: 450px) {
-  .product .product__img img {
-    width: 150px;
-    height: 150px;
-  }
-  .product a {
-    font-size: 10px;
-    line-height: 16px;
-    color: #68a4e1;
-  }
-}
-
 .product .product__content {
   display: flex;
   flex-direction: column;
@@ -230,24 +250,10 @@ button.owl-prev {
   font-size: 14px;
   border-right: 2px solid #ffffff !important;
 }
-.container
-  .header
-  .header__container
-  .top__navbar
-  .top__nav__right
-  ul
-  li
-  a:hover {
+.container .header .header__container .top__navbar .top__nav__right ul li a:hover {
   color: #dd2400;
 }
-.container
-  .header
-  .header__container
-  .top__navbar
-  .top__nav__right
-  ul
-  li
-  a:last-child {
+.container .header .header__container .top__navbar .top__nav__right ul li a:last-child {
   border: none;
 }
 .container .header .header__container .middle__navbar {
@@ -260,12 +266,7 @@ button.owl-prev {
   display: flex;
   width: 570px;
 }
-.container
-  .header
-  .header__container
-  .middle__navbar
-  .middle__nav__search
-  input {
+.container .header .header__container .middle__navbar .middle__nav__search input {
   border: 1px solid #ccc;
   border-right: none;
   border-radius: 3px 0 0 3px;
@@ -291,94 +292,36 @@ button.owl-prev {
   font-size: 18px;
   line-height: 14px;
 }
-.container
-  .header
-  .header__container
-  .middle__navbar
-  .middle__nav__user__sec
-  ul {
+.container .header .header__container .middle__navbar .middle__nav__user__sec ul {
   display: flex;
   gap: 20px;
 }
-.container
-  .header
-  .header__container
-  .middle__navbar
-  .middle__nav__user__sec
-  ul
-  li
-  a
-  i {
+.container .header .header__container .middle__navbar .middle__nav__user__sec ul li a i {
   font-size: 20px;
   color: #fff;
 }
 @media screen and (min-width: 768px) {
-  .container
-    .header
-    .header__container
-    .middle__navbar
-    .middle__nav__user__sec
-    ul
-    li
-    a
-    i {
+  .container .header .header__container .middle__navbar .middle__nav__user__sec ul li a i {
     font-size: 30px;
   }
 }
-.container
-  .header
-  .header__container
-  .middle__navbar
-  .middle__nav__user__sec
-  ul
-  li
-  a
-  i:hover {
+.container .header .header__container .middle__navbar .middle__nav__user__sec ul li a i:hover {
   color: #dd2400;
 }
-.container
-  .header
-  .header__container
-  .middle__navbar
-  .middle__nav__user__sec
-  ul
-  .user__info {
+.container .header .header__container .middle__navbar .middle__nav__user__sec ul .user__info {
   display: flex;
   gap: 10px;
 }
-.container
-  .header
-  .header__container
-  .middle__navbar
-  .middle__nav__user__sec
-  ul
-  .user__info
-  div {
+.container .header .header__container .middle__navbar .middle__nav__user__sec ul .user__info div {
   display: flex;
   flex-direction: column;
 }
-.container
-  .header
-  .header__container
-  .middle__navbar
-  .middle__nav__user__sec
-  ul
-  .user__info
-  div
-  a {
+.container .header .header__container .middle__navbar .middle__nav__user__sec ul .user__info div a {
   color: #fff;
   display: inline-block;
   font-size: 14px;
 }
-.container
-  .header
-  .header__container
-  .middle__navbar
-  .middle__nav__user__sec
-  ul
-  .user__info
-  div
-  a:hover {
+.container .header .header__container .middle__navbar .middle__nav__user__sec ul .user__info div a:hover {
   color: #dd2400;
 }
 .container .header .header__container .bottom__navbar {
@@ -458,104 +401,41 @@ button.owl-prev {
   min-height: 92px;
   align-items: center;
 }
-.container
-  .header
-  .mobile__navbar__container
-  .middle__navbar
-  .middle__nav__user__sec
-  ul {
+.container .header .mobile__navbar__container .middle__navbar .middle__nav__user__sec ul {
   display: flex;
   gap: 20px;
 }
 @media screen and (max-width: 768px) {
-  .container
-    .header
-    .mobile__navbar__container
-    .middle__navbar
-    .middle__nav__user__sec
-    ul {
+  .container .header .mobile__navbar__container .middle__navbar .middle__nav__user__sec ul {
     gap: 8px;
   }
 }
-.container
-  .header
-  .mobile__navbar__container
-  .middle__navbar
-  .middle__nav__user__sec
-  ul
-  li
-  a
-  i {
+.container .header .mobile__navbar__container .middle__navbar .middle__nav__user__sec ul li a i {
   font-size: 30px;
   color: #fff;
 }
 @media screen and (max-width: 768px) {
-  .container
-    .header
-    .mobile__navbar__container
-    .middle__navbar
-    .middle__nav__user__sec
-    ul
-    li
-    a
-    i {
+  .container .header .mobile__navbar__container .middle__navbar .middle__nav__user__sec ul li a i {
     font-size: 20px;
   }
 }
-.container
-  .header
-  .mobile__navbar__container
-  .middle__navbar
-  .middle__nav__user__sec
-  ul
-  li
-  a
-  i:hover {
+.container .header .mobile__navbar__container .middle__navbar .middle__nav__user__sec ul li a i:hover {
   color: #dd2400;
 }
-.container
-  .header
-  .mobile__navbar__container
-  .middle__navbar
-  .middle__nav__user__sec
-  ul
-  .user__info {
+.container .header .mobile__navbar__container .middle__navbar .middle__nav__user__sec ul .user__info {
   display: flex;
   gap: 10px;
 }
-.container
-  .header
-  .mobile__navbar__container
-  .middle__navbar
-  .middle__nav__user__sec
-  ul
-  .user__info
-  div {
+.container .header .mobile__navbar__container .middle__navbar .middle__nav__user__sec ul .user__info div {
   display: flex;
   flex-direction: column;
 }
-.container
-  .header
-  .mobile__navbar__container
-  .middle__navbar
-  .middle__nav__user__sec
-  ul
-  .user__info
-  div
-  a {
+.container .header .mobile__navbar__container .middle__navbar .middle__nav__user__sec ul .user__info div a {
   color: #fff;
   display: inline-block;
   font-size: 14px;
 }
-.container
-  .header
-  .mobile__navbar__container
-  .middle__navbar
-  .middle__nav__user__sec
-  ul
-  .user__info
-  div
-  a:hover {
+.container .header .mobile__navbar__container .middle__navbar .middle__nav__user__sec ul .user__info div a:hover {
   color: #dd2400;
 }
 .container .header .mobile__navbar__container .search__sec {
@@ -564,19 +444,10 @@ button.owl-prev {
   margin: 0 auto;
   justify-content: center;
 }
-.container
-  .header
-  .mobile__navbar__container
-  .search__sec
-  .middle__nav__search {
+.container .header .mobile__navbar__container .search__sec .middle__nav__search {
   display: flex;
 }
-.container
-  .header
-  .mobile__navbar__container
-  .search__sec
-  .middle__nav__search
-  input {
+.container .header .mobile__navbar__container .search__sec .middle__nav__search input {
   border: 1px solid #ccc;
   border-right: none;
   border-radius: 3px 0 0 3px;
@@ -652,65 +523,33 @@ button.owl-prev {
     width: 70%;
   }
 }
-.container
-  .banner__section
-  .banner__container
-  .banner__container__left
-  .banner__slider
-  .banner__slider__container {
+.container .banner__section .banner__container .banner__container__left .banner__slider .banner__slider__container {
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
 }
-.container
-  .banner__section
-  .banner__container
-  .banner__container__left
-  .banner__slider
-  .banner__container__content {
+.container .banner__section .banner__container .banner__container__left .banner__slider .banner__container__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 15px;
 }
-.container
-  .banner__section
-  .banner__container
-  .banner__container__left
-  .banner__slider
-  .banner__container__content
-  h3 {
+.container .banner__section .banner__container .banner__container__left .banner__slider .banner__container__content h3 {
   font-size: 24px;
   line-height: 33px;
   color: #000000;
   font-weight: 500;
 }
-.container
-  .banner__section
-  .banner__container
-  .banner__container__left
-  .banner__slider
-  .banner__container__content
-  span {
+.container .banner__section .banner__container .banner__container__left .banner__slider .banner__container__content span {
   text-decoration: line-through;
 }
-.container
-  .banner__section
-  .banner__container
-  .banner__container__left
-  .banner__slider
-  h4 {
+.container .banner__section .banner__container .banner__container__left .banner__slider h4 {
   color: #74b996;
   font-size: 24px;
   line-height: 32px;
   font-weight: 500;
 }
-.container
-  .banner__section
-  .banner__container
-  .banner__container__left
-  .banner__slider
-  p {
+.container .banner__section .banner__container .banner__container__left .banner__slider p {
   font-size: 16px;
   line-height: 22px;
   color: #dd2400;
@@ -726,11 +565,7 @@ button.owl-prev {
     width: 30%;
   }
 }
-.container
-  .banner__section
-  .banner__container
-  .banner__container__right
-  .first__img {
+.container .banner__section .banner__container .banner__container__right .first__img {
   height: 100%;
   width: 100%;
   display: flex;
@@ -738,11 +573,7 @@ button.owl-prev {
   justify-content: center;
   background-size: cover;
 }
-.container
-  .banner__section
-  .banner__container
-  .banner__container__right
-  .last__img {
+.container .banner__section .banner__container .banner__container__right .last__img {
   height: 150px;
   width: 370px;
   display: flex;
@@ -750,44 +581,23 @@ button.owl-prev {
   justify-content: center;
   background-size: cover;
 }
-.container
-  .banner__section
-  .banner__container
-  .banner__container__right
-  .banner__right__img {
+.container .banner__section .banner__container .banner__container__right .banner__right__img {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
 }
-.container
-  .banner__section
-  .banner__container
-  .banner__container__right
-  .banner__right__img
-  span {
+.container .banner__section .banner__container .banner__container__right .banner__right__img span {
   font-size: 24px;
   line-height: 33px;
   color: #000;
 }
-.container
-  .banner__section
-  .banner__container
-  .banner__container__right
-  .banner__right__img
-  .price
-  span {
+.container .banner__section .banner__container .banner__container__right .banner__right__img .price span {
   font-size: 16px;
   line-height: 22px;
   color: #999999;
 }
-.container
-  .banner__section
-  .banner__container
-  .banner__container__right
-  .banner__right__img
-  .price
-  h6 {
+.container .banner__section .banner__container .banner__container__right .banner__right__img .price h6 {
   font-size: 16px;
   line-height: 22px;
   color: #52a87d;
@@ -1025,10 +835,7 @@ button.owl-prev {
     border-bottom: none;
     padding: 0 20px;
   }
-  .footer__section
-    .footer__container
-    .selling__feature
-    .feature__list:last-child {
+  .footer__section .footer__container .selling__feature .feature__list:last-child {
     border: none;
   }
 }
@@ -1059,83 +866,44 @@ button.owl-prev {
     flex-direction: row;
   }
 }
-.footer__section
-  .footer__container
-  .middle__footer__links__container
-  .footer__links {
+.footer__section .footer__container .middle__footer__links__container .footer__links {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.footer__section
-  .footer__container
-  .middle__footer__links__container
-  .footer__links
-  h5 {
+.footer__section .footer__container .middle__footer__links__container .footer__links h5 {
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
   color: #666;
 }
-.footer__section
-  .footer__container
-  .middle__footer__links__container
-  .footer__links
-  p {
+.footer__section .footer__container .middle__footer__links__container .footer__links p {
   font-size: 16px;
   line-height: 22px;
   font-size: 500;
   color: #666;
 }
-.footer__section
-  .footer__container
-  .middle__footer__links__container
-  .footer__links
-  ul {
+.footer__section .footer__container .middle__footer__links__container .footer__links ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.footer__section
-  .footer__container
-  .middle__footer__links__container
-  .footer__links
-  ul
-  li
-  a {
+.footer__section .footer__container .middle__footer__links__container .footer__links ul li a {
   color: #666;
   display: inline-block;
 }
-.footer__section
-  .footer__container
-  .middle__footer__links__container
-  .footer__links
-  ul
-  li
-  a:hover {
+.footer__section .footer__container .middle__footer__links__container .footer__links ul li a:hover {
   color: #dd2400;
 }
-.footer__section
-  .footer__container
-  .middle__footer__links__container
-  .footer__links
-  .news__letter {
+.footer__section .footer__container .middle__footer__links__container .footer__links .news__letter {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.footer__section
-  .footer__container
-  .middle__footer__links__container
-  .footer__links
-  .newsletter__form {
+.footer__section .footer__container .middle__footer__links__container .footer__links .newsletter__form {
   position: relative;
 }
-.footer__section
-  .footer__container
-  .middle__footer__links__container
-  .footer__links
-  input {
+.footer__section .footer__container .middle__footer__links__container .footer__links input {
   height: 50px;
   border: 1px solid #e5e5e5;
   padding: 0 140px 0 20px;
@@ -1146,11 +914,7 @@ button.owl-prev {
   font-size: 16px;
   line-height: 22px;
 }
-.footer__section
-  .footer__container
-  .middle__footer__links__container
-  .footer__links
-  button {
+.footer__section .footer__container .middle__footer__links__container .footer__links button {
   position: absolute;
   top: 0;
   right: 0;
@@ -1168,30 +932,14 @@ button.owl-prev {
   font-size: 16px;
   line-height: 22px;
 }
-.footer__section
-  .footer__container
-  .middle__footer__links__container
-  .footer__links
-  .follow__us
-  h5 {
+.footer__section .footer__container .middle__footer__links__container .footer__links .follow__us h5 {
   margin-bottom: 10px;
 }
-.footer__section
-  .footer__container
-  .middle__footer__links__container
-  .footer__links
-  .follow__us
-  .social__icons {
+.footer__section .footer__container .middle__footer__links__container .footer__links .follow__us .social__icons {
   display: flex;
   gap: 15px;
 }
-.footer__section
-  .footer__container
-  .middle__footer__links__container
-  .footer__links
-  .follow__us
-  .social__icons
-  i {
+.footer__section .footer__container .middle__footer__links__container .footer__links .follow__us .social__icons i {
   cursor: pointer;
 }
 .footer__section .footer__container .bottom__footer {
@@ -1224,4 +972,4 @@ button.owl-prev {
   .footer__section .footer__container .bottom__footer .bottom__footer__right {
     flex-direction: row;
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

@@ -35,7 +35,7 @@ $(document).ready(function () {
   });
 });
 
-let countDownDate = new Date("Jun 29, 2023 15:37:25").getTime();
+let countDownDate = new Date("Jun 31, 2023 15:37:25").getTime();
 
 let x = setInterval(function () {
   // Get today's date and time
@@ -97,54 +97,96 @@ const displayBestSellingItems = (data) => {
 };
 
 bestSellingItems();
+// for mobile
+const mobileBestSellingItems = async () => {
+  try {
+    const url = `/bestseller.json`;
+    const res = await fetch(url);
+    const data = await res.json();
+    displayMobileBestSellingItems(data);
+  } catch (error) {
+    console.log(error);
+  }
+};
 
-// const homeElectronics = async () => {
-//   try {
-//     const url = `/home.json`;
-//     const res = await fetch(url);
-//     const data = await res.json();
-//     displayHomeElectronics(data);
-//   } catch (error) {
-//     console.log(error);
-//   }
-// };
-// const displayHomeElectronics = (data) => {
-//   const electronicsItems = document.getElementById("electronic__items");
-//   data.forEach((item) => {
-//     const elctronicDiv = document.createElement("div");
-//     elctronicDiv.innerHTML = `
-//       <div class="product">
-//         <div class="product__img"><img src="${item.img1}" alt=""></div>
-//         <div class="product__content">
+const displayMobileBestSellingItems = (data) => {
+  const sellingItems = document.getElementById(
+    "mobile__best__selling__section"
+  );
+  data.forEach((item) => {
+    const catagoryDiv = document.createElement("div");
 
-//          <a href="">${item.title}</a>
-//          <div class="review__stars">
-//           <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-//           <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-//           <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-//           <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-//           <i class="fa-solid fa-star" style="color: #ffcc00"></i>
-//           <span>2</span>
-//          </div>
-//          <div class="product__price">
-//           <span class="price">$${item.sale_price}</span>
-//           <span class="old__price">${
-//             item.regular_price ? `$${item.regular_price}` : ""
-//           }</span>
-//         </div>
-//         <div> ${
-//           item.discount
-//             ? `<span class="discount-percent">${item.discount}%</span>`
-//             : ""
-//         }</div>
-//         </div>
-//       </div>`;
+    catagoryDiv.innerHTML = `
+    <div>
+    <a
+      href="${item.link}"
+      target="_blank"
+    >
+      <div class="mobile__product__container">
+        <div class="product__img">
+          <img src="${item.img1}" alt="" />
+        </div>
+        <div class="product__content">
+          <a
+          href="${item.link}"
+            target="_blank"
+            >${item.title}</a
+          >
+        </div>
+      </div>
+    </a>
+  </div>`;
 
-//     electronicsItems.appendChild(elctronicDiv);
-//   });
-// };
+    sellingItems.appendChild(catagoryDiv);
+  });
+};
 
-// homeElectronics();
+mobileBestSellingItems();
+
+// electronics
+const gadget = async () => {
+  try {
+    const url = `/home.json`;
+    const res = await fetch(url);
+    const data = await res.json();
+    displayGadget(data);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+const displayGadget = (data) => {
+  const sellingItems = document.getElementById("mobile__gadget__section");
+  data.forEach((item) => {
+    const catagoryDiv = document.createElement("div");
+
+    catagoryDiv.innerHTML = `
+    <div>
+    <a
+      href="${item.link}"
+      target="_blank"
+    >
+      <div class="mobile__product__container">
+        <div class="product__img">
+          <img src="${item.img1}" alt="" />
+        </div>
+        <div class="product__content">
+          <a
+          href="${item.link}"
+            target="_blank"
+            >${item.title}</a
+          >
+        </div>
+      </div>
+    </a>
+  </div>`;
+
+    sellingItems.appendChild(catagoryDiv);
+  });
+};
+
+gadget();
+
 const technologies = async () => {
   try {
     const url = `/computer_and_tech.json`;
@@ -180,6 +222,49 @@ const displayTechnology = (data) => {
 };
 
 technologies();
+
+// mobile
+const mobileTechnologies = async () => {
+  try {
+    const url = `/computer_and_tech.json`;
+    const res = await fetch(url);
+    const data = await res.json();
+    displayMobileTechnology(data);
+  } catch (error) {
+    console.log(error);
+  }
+};
+const displayMobileTechnology = (data) => {
+  const sellingItems = document.getElementById("mobile__trend__section");
+  data.forEach((item) => {
+    const catagoryDiv = document.createElement("div");
+
+    catagoryDiv.innerHTML = `
+    <div>
+    <a
+      href="${item.link}"
+      target="_blank"
+    >
+      <div class="mobile__product__container">
+        <div class="product__img">
+          <img src="${item.img1}" alt="" />
+        </div>
+        <div class="product__content">
+          <a
+          href="${item.link}"
+            target="_blank"
+            >${item.title}</a
+          >
+        </div>
+      </div>
+    </a>
+  </div>`;
+
+    sellingItems.appendChild(catagoryDiv);
+  });
+};
+
+mobileTechnologies();
 const cameras = async () => {
   try {
     const url = `/camera_and_videos.json`;

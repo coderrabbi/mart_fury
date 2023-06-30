@@ -1,122 +1,45 @@
 [
   {
-    "id": "1",
-    "title": "DBPOWER T20 1500 Lumens LCD Projector",
-    "ratings": "2",
-    "regular_price": "",
-    "sale_price": "200.00",
-    "img1": "assets/light.png",
-    "img2": "assets/38b.webp",
-    "discount": ""
-  },
-  {
-    "id": "2",
-    "title": "Samsung 4K Ultra HD Smart LED TV",
-    "ratings": "3",
-    "regular_price": "300.00",
-    "sale_price": "250",
-    "img1": "assets/39a.webp",
-    "img2": "assets/39b.webp",
-    "discount": "17"
-  },
-  {
-    "id": "3",
-    "title": "Marshall PBluetooth Speaker",
-    "ratings": "3",
-    "regular_price": "300.00",
-    "sale_price": "250",
-    "img1": "assets/40b.webp",
-    "img2": "assets/40d.webp",
-    "discount": "17"
-  },
-  {
-    "id": "4",
-    "title": "NewAir Beverage Cooler",
-    "ratings": "2",
-    "regular_price": "",
-    "sale_price": "300.00",
-    "img1": "assets/42a.webp",
-    "img2": "assets/42b.webp",
-    "discount": ""
-  },
-  {
     "id": "5",
-    "title": "ARCHEER 25W Bluetooth Speaker (A320)",
-    "ratings": "2",
-    "regular_price": "",
-    "sale_price": "70.00",
-    "img1": "assets/43a.webp",
-    "img2": "assets/43b.webp",
-    "discount": ""
-  },
-  {
-    "id": "6",
-    "title": "Goodsail Car Mount Holder",
-    "ratings": "2",
-    "regular_price": "",
-    "sale_price": "9.99",
-    "img1": "assets/44a.webp",
-    "img2": "assets/44b.webp",
-    "discount": ""
-  },
-  {
-    "id": "7",
-    "title": "Fujifilm Instax Mini Neo Instant Film Camera",
-    "ratings": "2",
-    "regular_price": "",
-    "sale_price": "99.00",
-    "img1": "assets/46a.webp",
-    "img2": "assets/46b.webp",
-    "discount": ""
-  },
-  {
-    "id": "8",
-    "title": "DJI Phantom 4 Quadcopter Camera",
-    "ratings": "2",
-    "regular_price": "",
-    "sale_price": "900.00",
-    "img1": "assets/24a.webp",
-    "img2": "assets/24b.webp",
-    "discount": ""
-  },
-  {
-    "id": "9",
-    "title": "652C Silver Ticket In-Ceiling Speaker",
-    "ratings": "2",
-    "regular_price": "",
-    "sale_price": "25.00",
-    "img1": "assets/47a.webp",
-    "img2": "assets/47b.webp",
-    "discount": ""
-  },
-  {
-    "id": "10",
-    "title": "Gopro Quick Sliver Hero4 24K HD Camera",
+    "title": "SecureLite Tactical Flashlight",
+    "link": "",
     "ratings": "2",
     "regular_price": "",
     "sale_price": "525.00",
-    "img1": "assets/48a.webp",
+    "img1": "assets/torch.png",
     "img2": "assets/48b.webp",
     "discount": ""
   },
   {
-    "id": "11",
-    "title": "Nikon Coolpix 24 MP Camera",
+    "id": "6",
+    "title": "BodyTrac Fitness Tracker",
     "ratings": "2",
     "regular_price": "",
-    "sale_price": "450.00",
-    "img1": "assets/49a.webp",
-    "img2": "assets/49b.webp",
+    "sale_price": "200.00",
+    "img1": "assets/fitness.jpg",
+    "img2": "assets/38b.webp",
     "discount": ""
   },
   {
-    "id": "12",
-    "title": "Sony HD 1080p, 13.5MP White Version",
+    "id": "7",
+    "link": "https://glossy-transfer.com/?a=202058&c=25709&s1=",
+    "title": "DashGuard Dash Cam",
     "ratings": "2",
     "regular_price": "",
-    "sale_price": "386.90",
-    "img1": "assets/49a.webp",
-    "img2": "assets/49b.webp",
+    "sale_price": "12.00",
+    "img1": "assets/dash cam.png",
+    "img2": "assets/45b.webp",
+    "discount": ""
+  },
+  {
+    "id": "7",
+    "title": "Tactical StealthOP Backpack",
+    "link": "https://glossy-transfer.com/?a=202058&c=25635&s1=",
+    "ratings": "2",
+    "regular_price": "",
+    "sale_price": "12.00",
+    "img1": "assets/bag.png",
+    "img2": "assets/45b.webp",
     "discount": ""
   }
 ]
